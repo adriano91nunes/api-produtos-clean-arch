@@ -96,3 +96,9 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+## 🏗️ Estrutura de Camadas
+Este projeto segue os princípios da Clean Architecture:
+- **Domain:** Entidades de negócio e interfaces de repositório (Core).
+- **Application:** Casos de uso (Use Cases) que orquestram a lógica.
+- **Infrastructure:** Implementações técnicas (Repositórios em memória, Controllers NestJS).
